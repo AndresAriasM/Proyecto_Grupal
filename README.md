@@ -1,11 +1,11 @@
 # Proyecto_Grupal
 
-##Descripción
+## Descripción
 
 Proyecto final, logica de programación, UPB 2021 I
 
-###Integrantes
+### Integrantes
 - Juan Otalvaro
 - Andrés Arias
 
-##Referentes 
+## Referentes 

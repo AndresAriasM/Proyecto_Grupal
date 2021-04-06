@@ -6,4 +6,4 @@
 - ¿Que vamos a hacer?
 
 
--¿Que dicifultades tengo?
+- ¿Que dificultades tengo?

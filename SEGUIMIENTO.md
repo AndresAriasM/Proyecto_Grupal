@@ -20,4 +20,15 @@
 - ¿Que dificultades tengo?
 ##### Se nos ha hecho un poco complejo comprender este tema por el tipo de codigo que emplea.
 
+## 13 de abril - Seguimiento
+
+- ¿Que hemos hecho?
+##### Seleccionamos la canción y repasamos teoria necesaria para el proyecto.
+ 
+ - ¿Que vamos a hacer?
+##### Seleccionar una canción del genero Rock en español y conventirla en código según los parametros.
+
+- ¿Que dificultades tengo?
+##### El dia de hoy tuvimos inconvenientes personales ambos miembros del equipo, asi que el día de hoy no avanzamos, lo hicimos en días posteriores.
+
 

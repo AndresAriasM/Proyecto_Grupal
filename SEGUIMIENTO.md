@@ -34,7 +34,7 @@
 ## 15 de abril - Seguimiento
 
 - ¿Que hemos hecho?
-##### Tenemos listo el repositorio bajo el nombre de Proyecto_Grupal, comprendemos el funcionamiento de los commits y repasamos los nuevos aprendizajes en JAVA.
+##### Tenemos listo el repositorio bajo el nombre de Proyecto_Grupal, comprendemos el funcionamiento de los commits y repasamos los nuevos aprendizajes en JAVA
  
  - ¿Que vamos a hacer?
 ##### Realizaremos el Examen 2 correspondiente a la unidad de clase del dia de hoy (Andrés presenton un problema de calamidad domestica.

@@ -21,4 +21,4 @@ Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfr
 
 ## Referentes 
 
-https://desarrolloweb.com/articulos/trabajar-ramas-git.html#:~:text=Para%20moverse%20entre%20ramas%20usamos,queremos%20que%20sea%20la%20activa.
+

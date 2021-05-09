@@ -3,6 +3,7 @@
 ## Descripción
 
 Rock Print Music
+
 Rock Print Music es un programa diseñado para reproducir aleatoriamente una canción del género rock en español junto con una breve descripción de la misma. La idea es otorgar al oyente información importante de lo que escuchara, como:
  - Nombre de la banda o compositor.
  - Razón o inspiración de la letra.

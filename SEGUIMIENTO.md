@@ -42,4 +42,24 @@
 - ¿Que dificultades tengo?
 ##### Andrés tuvo un inconveniente familiar que nos hizo desconcentrarnos del proyecto por unos dias.
 
+## 20 de abril - Seguimiento
 
+- ¿Que hemos hecho?
+##### Repasamos la clase de cadenas y nos enfocamos para preparar la revision.
+ 
+ - ¿Que vamos a hacer?
+##### Nos reuniremos para terminar algunos detalles del proyecto para la revision en la proxima clase.
+
+- ¿Que dificultades tengo?
+##### complicaciones en la reunion por fallas del wifi de juan.
+
+## 22 de abril - Seguimiento
+
+- ¿Que hemos hecho?
+##### Vimos en clase funciones y dimos un repaso para estar listos e incorporarlo al proyecto.
+ 
+ - ¿Que vamos a hacer?
+##### Una reunion para intentar aclarar dudas ya que pensamos que seria bueno para reforar.
+
+- ¿Que dificultades tengo?
+##### Juan debio repetir la clase de funciones ya que solo pudo ver 20 minutos de la clase.

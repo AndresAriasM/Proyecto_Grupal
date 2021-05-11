@@ -63,3 +63,37 @@
 
 - ¿Que dificultades tengo?
 ##### Juan debio repetir la clase de funciones ya que solo pudo ver 20 minutos de la clase.
+
+## 27 de abril - Seguimiento
+
+- ¿Que hemos hecho?
+##### Realizamos el pull request y ralizamos lo que indico el profesor en la clase.
+ 
+ - ¿Que vamos a hacer?
+##### Vamos a relizar la revision de la cancion para verificar que si esta bien escrita.
+
+- ¿Que dificultades tengo?
+##### En esta sesion no se presentaron dificultades. 
+
+## 30 de abril - Seguimiento
+
+- ¿Que hemos hecho?
+##### hemos corregido minimos errores en la cancion.
+ 
+ - ¿Que vamos a hacer?
+##### En esta reunion vamos a analizar y resolver las dudas que tenemos cada uno respecto al proyecto. 
+
+- ¿Que dificultades tengo?
+#####  tuvimos un pequeño problema para encontrar un horario de reunion favorable para amblos pero se resolvio. 
+
+## 4 de Mayo - Seguimiento
+
+- ¿Que hemos hecho?
+##### hemos pensado en que hacer para nuestro proyecto.
+ 
+ - ¿Que vamos a hacer?
+##### vamos a decidir en definitiva cual sera nuestro proyecto para ponernos en marcha para realizarlo
+
+- ¿Que dificultades tengo?
+##### presentamos dudas en una explicacion de clase de hoy, pero las resolvimos preguntando.
+

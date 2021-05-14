@@ -1,51 +1,9 @@
 import org.fusesource.jansi.AnsiConsole;
 import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
-import java.util.*; // Pendiente!
+import java.util.*;
 
 public class Programa{
-
-	public static void main(String[] args) {
-                                                                        
-       System.out.println("  _____            _      _____      _       _     __  __           _      ");
-       System.out.println(" |  __ \\          | |    |  __ \\    (_)     | |   |  \\/  |         (_)     ");
-       System.out.println(" | |__) |___   ___| | __ | |__) | __ _ _ __ | |_  | \\  / |_   _ ___ _  ___ ");
-       System.out.println(" |  _  // _ \\ / __| |/ / |  ___/ '__| | '_ \\| __| | |\\/| | | | / __| |/ __|");
-       System.out.println(" | | \\ \\ (_) | (__|   <  | |   | |  | | | | | |_  | |  | | |_| \\__ \\ | (__ ");
-       System.out.println(" |_|  \\_\\___/ \\___|_|\\_\\ |_|   |_|  |_|_| |_|\\__| |_|  |_|\\__,_|___/_|\\___|");
-       System.out.println("");                                                                         
-
- 
-     
-      System.out.println("                                                                   /`  `'-.");
-      System.out.println("                                                                  |     _  `\\");
-      System.out.println("                                                                  \\'-,'` \\   |");
-      System.out.println("          Bienvenid@ a Rock Print Music                             /a a  |  /");
-      System.out.println("        Ingrese la opción de su preferencia                        \\ __, `/");
-      System.out.println("                                                                      .'`\\___.'('-.__");
-      System.out.println("                                                                /__ ;    /_   \\ `\\");            
-      System.out.println("        1. Buscar canción                                      .`))'`\\.'`  \\___\\  \\");
-      System.out.println("        2. Mostrar información de la canción                  /  ((  |o       ))   \\");
-      System.out.println("        3. Mostrar letra                        /   ))  |        ((    \\");
-      System.out.println("        4. Reproducir canción               `-,   `',,,._.-' '-./))  |        (.'   /");
-      System.out.println("        5. Detener canción                     '--`//// '-._ _.' (( _|o      .'  _.'");
-      System.out.println("        6. Imprimir lista de canciones             \\```';-._'-._ ))( `-._.-'/__ /,");
-      System.out.println("        7. Salir                                    `\"\"`    '-._'-;_)      /  /   \\");
-      System.out.println("                                                                '-,_'-._(`-||||    \\");
-      System.out.println("                                                               _.-' '-.//-.\\\\\\\\_.-.|");
-      System.out.println("                                                              (     .-' _.. ````;-.|");
-      System.out.println("                                                               '--;-.`-'   '._.'   /");
-      System.out.println("                                                                 /   `'.         .'");
-      System.out.println("                                                                /      /`'-----'`|");
-      System.out.println("                                                               /      /    |     |");
-      System.out.println("                                                              /     /`     |     |");
-      System.out.println("                                                             |     |       |_    |");
-      System.out.println("                                                             |     |         \\     \\");
-      System.out.println("                                                             |     |           \\     \\");
-      System.out.println("                                                           _.\'`----;          .\'     |");
-      System.out.println("                                                          '---'`              `\"\"\"`");                                                                      
-	}
-
 
 	public static String convertirUnicode(String letra,String cadena){
 		
@@ -76,8 +34,7 @@ public class Programa{
 		}
 
 		return str.toString();
-	} 
-
+	}
 
 	public static void imprimir(String cadena)
 	{
@@ -96,17 +53,72 @@ public class Programa{
 	public static StringBuilder obtenerLetraCancion(int inicio,int fin, String[]data)
 	{
 		StringBuilder str = new StringBuilder();
-		
+		StringTokenizer temp;
 
 		for(int i = inicio; i<=fin; i++)
 		{
-		  str.append(data[i]+"\n");
+			//System.out.println("@  "+data[i]);
+
+			temp = new StringTokenizer(data[i],";");
+
+			while(temp.hasMoreTokens())
+			{
+				System.out.print(temp.nextToken()+" ");
+			}
+			System.out.println();
+			//str.append(data[i]+"\n");
 		}
 
 		return str;
 	}
 
-	public static void main(String[] args) {
+    
+   
+
+	public static void Interfaz(){
+                                                                        
+  System.out.println("  _____            _      _____      _       _     __  __           _      ");
+  System.out.println(" |  __ \\          | |    |  __ \\    (_)     | |   |  \\/  |         (_)     ");
+  System.out.println(" | |__) |___   ___| | __ | |__) | __ _ _ __ | |_  | \\  / |_   _ ___ _  ___ ");
+  System.out.println(" |  _  // _ \\ / __| |/ / |  ___/ '__| | '_ \\| __| | |\\/| | | | / __| |/ __|");
+  System.out.println(" | | \\ \\ (_) | (__|   <  | |   | |  | | | | | |_  | |  | | |_| \\__ \\ | (__ ");
+  System.out.println(" |_|  \\_\\___/ \\___|_|\\_\\ |_|   |_|  |_|_| |_|\\__| |_|  |_|\\__,_|___/_|\\___|");
+  System.out.println("");                                                                         
+
+ 
+     
+ System.out.println("                                                                   /`  `'-.");
+ System.out.println("                                                                  |     _  `\\");
+ System.out.println("                                                                  \\'-,'` \\   |");
+ System.out.println("          Bienvenid@ a Rock Print Music                             /a a  |  /");
+ System.out.println("        Ingrese la opción de su preferencia                        \\ __, `/");
+ System.out.println("                                                                      .'`\\___.'('-.__");
+ System.out.println("                                                                /__ ;    /_   \\ `\\");            
+ System.out.println("        1. Buscar canción                                      .`))'`\\.'`  \\___\\  \\");
+ System.out.println("        2. Mostrar información de la canción                  /  ((  |o       ))   \\");
+ System.out.println("        3. Mostrar letra                        /   ))  |        ((    \\");
+ System.out.println("        4. Reproducir canción               `-,   `',,,._.-' '-./))  |        (.'   /");
+ System.out.println("        5. Detener canción                     '--`//// '-._ _.' (( _|o      .'  _.'");
+ System.out.println("        6. Imprimir lista de canciones             \\```';-._'-._ ))( `-._.-'/__ /,");
+ System.out.println("        7. Salir                                    `\"\"`    '-._'-;_)      /  /   \\");
+ System.out.println("                                                                '-,_'-._(`-||||    \\");
+ System.out.println("                                                               _.-' '-.//-.\\\\\\\\_.-.|");
+ System.out.println("                                                              (     .-' _.. ````;-.|");
+ System.out.println("                                                               '--;-.`-'   '._.'   /");
+ System.out.println("                                                                 /   `'.         .'");
+ System.out.println("                                                                /      /`'-----'`|");
+ System.out.println("                                                               /      /    |     |");
+ System.out.println("                                                              /     /`     |     |");
+ System.out.println("                                                             |     |       |_    |");
+ System.out.println("                                                             |     |         \\     \\");
+ System.out.println("                                                             |     |           \\     \\");
+ System.out.println("                                                           _.\'`----;          .\'     |");
+ System.out.println("                                                          '---'`              `\"\"\"`");                                                                      
+		
+
+    }
+
+  public static void main(String[] args) {
 		
 		//AnsiConsole.systemInstall();
 		
@@ -121,15 +133,76 @@ public class Programa{
 		canciones = ConsoleFile.readBigFile("recursos/letras.csv");
 		info_canciones = ConsoleData.dataList(canciones);
 
+		try{
+
+
+			 do{
+
+			 	System.out.println();
+			 	Interfaz();
+			 	centinela = ConsoleInput.getInt();
+
+			 	if(centinela == 3)
+			 	{
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					indice_cancion = ConsoleInput.getInt();
+
+					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
+					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
+					
+					letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
+			 	}
+
+			 	if(centinela == 4)
+			 	{
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					indice_cancion = ConsoleInput.getInt();
+					audio.seleccionarCancion(info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
+					audio.reproducir();
+			 	}
+
+			 	if(centinela == 5)
+			 	{
+			 		audio.detener();
+			 	}
+
+			 	if(centinela == 6)
+			 	{
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					indice_cancion = ConsoleInput.getInt();
+
+					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
+					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
+
+					System.out.println();
+					imprimir("Inicio letra "+inicio_letra);
+					imprimir("Fin letra "+fin_letra);
+					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
+					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
+
+					imprimir("Primera estrofa: "+canciones[inicio_letra]);
+					imprimir("Última estrofa: "+canciones[fin_letra]);
+			 	}
+		    }while(centinela!=7);
+		  }
+		  catch(Exception e)
+		  {
+		  	System.out.println(e);
+		  }
+		  finally{
+		  	audio.detener();
+		  }  
 
 
 
 
+			
 
 
-}
-                                                                        
-	
+        
+ 
 
+			 
 	     
 	

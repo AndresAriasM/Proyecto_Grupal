@@ -8,7 +8,9 @@ public class ConsoleData{
 	public static final int NOMBRE_CANCION = 2; 
 	public static final int AUTOR_CANCION = 3; 
 	public static final int RUTA_CANCION = 7; 
-	public static final int SET_LENGTH = 8;
+	public static final int DESCRIPCION_CANCION = 8; 
+	public static final int INSPIRACION_CANCION = 9; 
+	public static final int SET_LENGTH = 10;
 
 	public static void processDescription(){
 

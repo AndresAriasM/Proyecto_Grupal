@@ -16,6 +16,7 @@ public class Programa{
 		{
 			switch(letra){
 				
+
 				case "á": caracter = '\u00E1';
 					      break;
 				case "é": caracter = '\u00E9';
@@ -40,7 +41,8 @@ public class Programa{
 	{
 		String str; 
 		
-		str = convertirUnicode("á",str);
+		
+		str = convertirUnicode("á",cadena);
 		str = convertirUnicode("é",str);
 		str = convertirUnicode("í",str);
 		str = convertirUnicode("ó",str);
@@ -142,6 +144,20 @@ public class Programa{
 			 	Interfaz();
 			 	centinela = ConsoleInput.getInt();
 
+			 	if(centinela == 1)
+			 		{
+
+			 		}
+
+			 	if(centinela == 2)
+			 	{
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					indice_cancion = ConsoleInput.getInt();
+
+					imprimir("Inspiración "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
+					imprimir("Contexto historico "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);
+			 	}
+
 			 	if(centinela == 3)
 			 	{
 			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
@@ -193,7 +209,9 @@ public class Programa{
 		  finally{
 		  	audio.detener();
 		  }  
+    }
 
+}
 
 
 

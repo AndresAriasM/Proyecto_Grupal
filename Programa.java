@@ -154,7 +154,11 @@ public class Programa{
 			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
+
+                    imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+                    imprimir(" ");
 					imprimir("Inspiración "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
+					imprimir(" ");
 					imprimir("Contexto historico "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);
 			 	}
 

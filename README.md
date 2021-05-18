@@ -19,6 +19,9 @@ Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfr
 - [Juan Otalvaro](https://github.com/juanotalvaro6)
 - [Andrés Arias](https://github.com/AndresAriasM)
 
+![image](https://user-images.githubusercontent.com/82043770/118736016-2cc01600-b807-11eb-91dc-2b80b71b4995.png)
+
+
 ## Referentes 
 - [Guia de markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [StackOverFlow](https://es.stackoverflow.com/)

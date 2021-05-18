@@ -30,7 +30,7 @@ public class Programa{
 				case "ñ": caracter = '\u00F1';
 					      break;
 			}
-			// System.out.println("\\u" + Integer.toHexString('÷' | 0x10000).substring(1));
+			
 			str.replace(indice,indice+1,""+caracter);
 		}
 
@@ -58,7 +58,7 @@ public class Programa{
 
 		for(int i = inicio; i<=fin; i++)
 		{
-			//System.out.println("@  "+data[i]);
+			
 
 			temp = new StringTokenizer(data[i],";");
 
@@ -67,7 +67,7 @@ public class Programa{
 				System.out.print(temp.nextToken()+" ");
 			}
 			System.out.println();
-			//str.append(data[i]+"\n");
+			
 		}
 
 		return str;
@@ -76,12 +76,12 @@ public class Programa{
 	public static void Interfaz()
 	{
                                                                         
-  System.out.println("  _____            _      _____      _       _     __  __           _      ");
-  System.out.println(" |  __ \\          | |    |  __ \\    (_)     | |   |  \\/  |         (_)     ");
-  System.out.println(" | |__) |___   ___| | __ | |__) | __ _ _ __ | |_  | \\  / |_   _ ___ _  ___ ");
-  System.out.println(" |  _  // _ \\ / __| |/ / |  ___/ '__| | '_ \\| __| | |\\/| | | | / __| |/ __|");
-  System.out.println(" | | \\ \\ (_) | (__|   <  | |   | |  | | | | | |_  | |  | | |_| \\__ \\ | (__ ");
-  System.out.println(" |_|  \\_\\___/ \\___|_|\\_\\ |_|   |_|  |_|_| |_|\\__| |_|  |_|\\__,_|___/_|\\___|");
+  System.out.println("          _____            _      _____      _       _     __  __           _      ");
+  System.out.println("         |  __ \\          | |    |  __ \\    (_)     | |   |  \\/  |         (_)     ");
+  System.out.println("         | |__) |___   ___| | __ | |__) | __ _ _ __ | |_  | \\  / |_   _ ___ _  ___ ");
+  System.out.println("         |  _  // _ \\ / __| |/ / |  ___/ '__| | '_ \\| __| | |\\/| | | | / __| |/ __|");
+  System.out.println("         | | \\ \\ (_) | (__|   <  | |   | |  | | | | | |_  | |  | | |_| \\__ \\ | (__ ");
+  System.out.println("         |_|  \\_\\___/ \\___|_|\\_\\ |_|   |_|  |_|_| |_|\\__| |_|  |_|\\__,_|___/_|\\___|");
   System.out.println("");                                                                         
 
  System.out.println("--------------------------------------------------------------------------------------------------");    
@@ -129,7 +129,7 @@ public class Programa{
         int inicio_letra = 0, fin_letra = 0;
 		Random rand = new Random();
     	
-    	String [] canciones = ConsoleFile.read("recursos/letras.csv");
+    	String [] canciones = ConsoleFile.readBigFile("recursos/letras.csv");
     	String [][] info_canciones = ConsoleData.dataList(canciones);
         StringBuilder letra_cancion;
        
@@ -159,15 +159,17 @@ public class Programa{
 			 	{
 
 
-			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1        ));
 					indice_cancion = ConsoleInput.getInt();
 
 
-                    imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+                    imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
                     imprimir(" ");
-					imprimir("Inspiración "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
+                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+                    imprimir(" ");
+					imprimir("Inspiración: "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
 					imprimir(" ");
-					imprimir("Contexto historico "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);
+					imprimir("Contexto historico: "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);
 			 	}
 
 			 	if(centinela == 3)
@@ -221,6 +223,7 @@ public class Programa{
 		  finally{
 		  	audio.detener();
 		  }  
+        
     }
 
 }

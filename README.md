@@ -25,3 +25,5 @@ Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfr
 - [JavaTPoint](https://www.javatpoint.com/how-to-generate-random-number-in-java)
 - [Educative](https://www.educative.io/edpresso/how-to-generate-random-numbers-in-java)
 - [Emojis](https://es.piliapp.com/emoji/list/)
+- [ASCII Art Archive](https://www.asciiart.eu/)
+

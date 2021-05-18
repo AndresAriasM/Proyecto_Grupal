@@ -20,5 +20,5 @@ Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfr
 - Andrés Arias
 
 ## Referentes 
-
+- [Guia de markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

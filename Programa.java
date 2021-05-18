@@ -114,14 +114,11 @@ public class Programa{
  System.out.println("|                                                          '---'`              `\"\"\"`             |");
  System.out.println("--------------------------------------------------------------------------------------------------");                                                                       
                                                                           
-<<<<<<< HEAD
+
  System.out.println("|    La idea de Rockprint Music es inculcarte cultura musical del género rock, para ello, es     |");
  System.out.println("|   necesario que sigas el orden del menú. Recuerda tener presente el numero que se te asigne    |");	
  System.out.println("|              en el paso 1, deberás digitarlo cada vez que te pida ingresarlo.                  |");
  System.out.println("--------------------------------------------------------------------------------------------------");	
-=======
-		
->>>>>>> e3bf8f203c365f9972cf4e4eca70b0a6e0d32373
 
     }
 
@@ -142,7 +139,7 @@ public class Programa{
         StringBuilder letra_cancion;
        
 		int min = 0;
-		int max = 20;
+		int max = 18;
 		int randomnumber = (int)Math.floor(Math.random()*(max-min+1)+min);
 		
   
@@ -157,8 +154,10 @@ public class Programa{
 
 			 	if(centinela == 1)
 			 	{
-			 		
-			        System.out.println("El numero de canción aleatoria es: " +  randomnumber);
+			 		System.out.println("Cada canción del programa esta asociada a un número");
+			 		System.out.println("Se te asignará uno aleatorio para hacerlo mas divertido");
+			 		System.out.println("");
+			        System.out.println("El nÚmero de canción aleatoria es: " +  randomnumber);
                     System.out.println("Ese número será la referencia para los demás pasos");
     		                        		                    
                 }
@@ -167,17 +166,13 @@ public class Programa{
 			 	{
 
 
-			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1        ));
+			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
 
                     imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
                     imprimir(" ");
-<<<<<<< HEAD
-                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);
-=======
-                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
->>>>>>> e3bf8f203c365f9972cf4e4eca70b0a6e0d32373
+                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);                    
                     imprimir(" ");
 					imprimir("Inspiración: "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
 					imprimir(" ");

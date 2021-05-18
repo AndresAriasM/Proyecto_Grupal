@@ -3,7 +3,7 @@ import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
 import java.util.*;
 
-public class RockPrintMusica{
+public class Programa{
 
 	public static String convertirUnicode(String letra,String cadena){
 		

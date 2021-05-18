@@ -97,3 +97,14 @@
 - ¿Que dificultades tengo?
 ##### Presentamos dudas en una explicación de clase de hoy, pero las resolvimos preguntando y a través de una asesoría con el profe.
 
+## 11 de Mayo - Seguimiento
+
+- ¿Que hemos hecho?
+##### Definimos cual seria nuestro programa, decidimos en conjunto utilizando la perspectiva de ambos y logramos llegar a un resultado que no gusto a ambos.
+ 
+ - ¿Que vamos a hacer?
+##### queremos verificar todos los criterios de evaluacion para tener la certeza de cumplirlos todos, en caso de faltar alguno queremos ponernos al dia con dicho criterio para asi buscar cumplir todos los requerimientos para la entrega final. 
+
+- ¿Que dificultades tengo?
+##### Como ha pasado, hemos tenido problemas con ciertas dudas en cuanto a modificar algunos archivos pero dicha duda se reolvio hoy durante la clase. 
+

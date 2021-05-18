@@ -114,10 +114,14 @@ public class Programa{
  System.out.println("|                                                          '---'`              `\"\"\"`             |");
  System.out.println("--------------------------------------------------------------------------------------------------");                                                                       
                                                                           
+<<<<<<< HEAD
  System.out.println("|    La idea de Rockprint Music es inculcarte cultura musical del género rock, para ello, es     |");
  System.out.println("|   necesario que sigas el orden del menú. Recuerda tener presente el numero que se te asigne    |");	
  System.out.println("|              en el paso 1, deberás digitarlo cada vez que te pida ingresarlo.                  |");
  System.out.println("--------------------------------------------------------------------------------------------------");	
+=======
+		
+>>>>>>> e3bf8f203c365f9972cf4e4eca70b0a6e0d32373
 
     }
 
@@ -169,7 +173,11 @@ public class Programa{
 
                     imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
                     imprimir(" ");
+<<<<<<< HEAD
                     imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);
+=======
+                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+>>>>>>> e3bf8f203c365f9972cf4e4eca70b0a6e0d32373
                     imprimir(" ");
 					imprimir("Inspiración: "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
 					imprimir(" ");

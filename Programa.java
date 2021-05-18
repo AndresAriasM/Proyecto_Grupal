@@ -157,10 +157,10 @@ public class Programa{
 			 		System.out.println("Cada canción del programa esta asociada a un número");
 			 		System.out.println("Se te asignará uno aleatorio para hacerlo mas divertido");
 			 		System.out.println("");
-			        System.out.println("El nÚmero de canción aleatoria es: " +  randomnumber);
-                    System.out.println("Ese número será la referencia para los demás pasos");
+			                System.out.println("El nÚmero de canción aleatoria es: " +  randomnumber);
+                                        System.out.println("Ese número será la referencia para los demás pasos");
     		                        		                    
-                }
+                                }
 
 			 	if(centinela == 2)
 			 	{
@@ -169,11 +169,13 @@ public class Programa{
 			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
-
-                    imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
-                    imprimir(" ");
-                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);                    
-                    imprimir(" ");
+                                        imprimir(" A continuación se te presentará información valiosa de la canción");
+					imprimir("   para que interiorices y comprendas su profundo significado"     );
+					imprimir("");
+                                        imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+                                        imprimir(" ");
+                                        imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);                    
+                                        imprimir(" ");
 					imprimir("Inspiración: "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
 					imprimir(" ");
 					imprimir("Contexto historico: "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);
@@ -212,6 +214,9 @@ public class Programa{
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
 
 					System.out.println();
+					imprimir("A continuación verás datos sueltos de la canción en el caso de que");
+					imprimir("                     quieras acceder a ella"                       );
+					imprimir("");
 					imprimir("Inicio letra "+inicio_letra);
 					imprimir("Fin letra "+fin_letra);
 					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);

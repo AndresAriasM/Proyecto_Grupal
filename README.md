@@ -16,8 +16,8 @@ Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfr
 
 
 ### Integrantes
-- Juan Otalvaro
-- Andrés Arias
+- [Juan Otalvaro](https://github.com/juanotalvaro6)
+- [Andrés Arias](https://github.com/AndresAriasM)
 
 ## Referentes 
 - [Guia de markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

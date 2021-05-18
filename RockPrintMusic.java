@@ -101,18 +101,19 @@ public class RockPrintMusica{
  System.out.println("|        7. Salir                                    `\"\"`    '-._'-;_)      /  /   \\             |");
  System.out.println("|                                                                '-,_'-._(`-||||    \\            |");
  System.out.println("|                                                               _.-' '-.//-.\\\\\\\\_.-.|            |");
- System.out.println("|                                                              (     .-' _.. ````;-.|            |");
- System.out.println("|                                                               '--;-.`-'   '._.'   /            |");
- System.out.println("|                                                                 /   `'.         .'             |");
- System.out.println("|                                                                /      /`'-----'`|              |");
- System.out.println("|                                                               /      /    |     |              |");
- System.out.println("|                                                              /     /`     |     |              |");
- System.out.println("|                                                             |     |       |_    |              |");
- System.out.println("|                                                             |     |         \\     \\            |");
- System.out.println("|                                                             |     |           \\     \\          |");
- System.out.println("|                                                           _.\'`----;          .\'     |          |");
+ System.out.println("|            ;                   ;;;;;;;;;;;;;;;;;             (     .-' _.. ````;-.|            |");
+ System.out.println("|            ;;                  ;               ;              '--;-.`-'   '._.'   /            |");
+ System.out.println("|            ;´;.                ;               ;                /   `'.         .'             |");
+ System.out.println("|            ;  ;;               ;               ;               /      /`'-----'`|              |");
+ System.out.println("|            ;   ;;              ;               ;              /      /    |     |              |");
+ System.out.println("|            ;    ;              ;               ;             /     /`     |     |              |");
+ System.out.println("|            ;   ;;              ;               ;            |     |       |_    |              |");
+ System.out.println("|       ,;;;,;    ´         ,;;;,;          ,;;;,;            |     |         \\     \\            |");
+ System.out.println("|       ;;;;;;              ;;;;;;          ;;;;;;            |     |           \\     \\          |");
+ System.out.println("|       ´;;;;´              ´;;;;´          ´;;;;´          _.\'`----;          .\'     |          |");
  System.out.println("|                                                          '---'`              `\"\"\"`             |");
  System.out.println("--------------------------------------------------------------------------------------------------");                                                                       
+                                                                          
 		
 
     }

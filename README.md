@@ -15,7 +15,7 @@ Rockprint Music es un programa diseñado para reproducir aleatoriamente una canc
 Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfrutar y comprender al máximo la esencia de la canción en cuestión.
 
 
-### Integrantes
+## Integrantes
 - [Juan Otalvaro](https://github.com/juanotalvaro6)
 - [Andrés Arias](https://github.com/AndresAriasM)
 

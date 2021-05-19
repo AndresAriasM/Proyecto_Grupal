@@ -154,11 +154,11 @@ public class Programa{
 
 			 	if(centinela == 1)
 			 	{
-			 		System.out.println("Cada canción del programa esta asociada a un número");
-			 		System.out.println("Se te asignará uno aleatorio para hacerlo mas divertido");
+			 		System.out.println("Cada canción del programa esta asociada a un número.");
+			 		System.out.println("Se te asignará uno aleatorio para hacerlo mas divertido.");
 			 		System.out.println("");
-			                System.out.println("El nÚmero de canción aleatoria es: " +  randomnumber);
-                                        System.out.println("Ese número será la referencia para los demás pasos");
+			        System.out.println("El número de canción aleatoria es: " +  randomnumber);
+                    System.out.println("Ese número será la referencia para los demás pasos");
     		                        		                    
                                 }
 
@@ -169,13 +169,15 @@ public class Programa{
 			 		imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
-                                        imprimir(" A continuación se te presentará información valiosa de la canción");
+                    imprimir(" A continuación se te presentará información valiosa de la canción");
 					imprimir("   para que interiorices y comprendas su profundo significado"     );
 					imprimir("");
-                                        imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
-                                        imprimir(" ");
-                                        imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);                    
-                                        imprimir(" ");
+					imprimir("Canción: "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
+                    imprimir(" ");
+                    imprimir("Autor: "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+                    imprimir(" ");
+                    imprimir("Año: "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);                    
+                    imprimir(" ");
 					imprimir("Inspiración: "+info_canciones[indice_cancion][ConsoleData.INSPIRACION_CANCION]);
 					imprimir(" ");
 					imprimir("Contexto historico: "+info_canciones[indice_cancion][ConsoleData.DESCRIPCION_CANCION]);

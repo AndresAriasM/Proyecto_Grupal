@@ -1,16 +1,16 @@
 # Rockprint Music 🎵😊🎶
 
-## Presentación 
+## 🎹 Presentación 
 
 ### [Presentación_Proyecto](https://www.youtube.com/watch?v=sy7dXsRIsiw)
 
 ### [Ejecución_Programa](https://www.youtube.com/watch?v=Or1dbwhBlv0)
 
-## [Sustentación_Código](https://www.youtube.com/watch?v=SJozs5HJIzk)
+### [Sustentación_Código](https://www.youtube.com/watch?v=SJozs5HJIzk)
 
-## Descripción
+## 🎧 Descripción
 
-Rockprint Music
+### Rockprint Music
 
 Rockprint Music es un programa diseñado para reproducir aleatoriamente una canción del género rock en español junto con una breve descripción de la misma. La idea es otorgar al oyente información importante de lo que escuchara, como:
  
@@ -23,7 +23,7 @@ Rockprint Music es un programa diseñado para reproducir aleatoriamente una canc
 Se busca a resumidas cuentas inculcar datos de valor cultural-musical para disfrutar y comprender al máximo la esencia de la canción en cuestión.
 
 
-## Integrantes
+## ☢ Integrantes ☢
 - [Juan Domingo Otalvaro](https://github.com/juanotalvaro6)
 - [Andrés Arias Medina](https://github.com/AndresAriasM)
 
